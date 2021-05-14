@@ -1,0 +1,50 @@
+.header {
+  width: 100%;
+  height: 54px;
+  padding: 6px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+}
+
+.headerLeft {
+  display: flex;
+  width: 135px;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  position: relative;
+}
+
+.headerRight {
+  font-size: 13px;
+  display: flex;
+  width: 225px;
+  height: 100%;
+  /* background-color: black; */
+  justify-content: space-around;
+  align-items: center;
+}
+
+.userLetter {
+  border-radius: 50px;
+}
+
+.userImg {
+  width: 13%;
+}
+
+.squares {
+  width: 7%;
+}
+
+.imageLink {
+  position: relative;
+  right: 8px;
+}
+
+a {
+  color: rgb(20, 20, 20);
+}
